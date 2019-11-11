@@ -37,7 +37,7 @@
 
 const u_char STANDARD_ADDR[] = {0x01,0x80,0xC2,0x00,0x00,0x03};
 const u_char RUIJIE_ADDR[] = {0x01,0xD0,0xF8,0x00,0x00,0x03};
-static const char *DATAFILE = "/etc/mentohust/";	/* 默认数据文件(目录) */
+static const char *DATAFILE = "/etc/storage/mentohust/";	/* 默认数据文件(目录) */
 
 static int dataOffset;	/* 抓包偏移 */
 static u_int32_t echoKey = 0, echoNo = 0;	/* Echo阶段所需 */
